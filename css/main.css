@@ -1,0 +1,12 @@
+.main-ad {
+  background-color: var(--main-color);
+}
+
+tbody > tr > * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.k-league-tb {
+  display: none;
+}

@@ -1,0 +1,65 @@
+.login > button {
+  background-color: var(--main-color);
+  transition: all 0.2s;
+}
+
+.menu-bar {
+  background-color: var(--main-color);
+}
+
+.menu-bar > ul > li,
+.menu-bar > a {
+  transition: all 0.2s;
+}
+
+.login > button:hover,
+.menu-bar > ul > li:hover,
+.menu-bar > a:hover {
+  background-color: #2894b8;
+}
+
+.menu-bar > ul > li.on {
+  background-color: #2894b8;
+}
+
+/* 로그인 팝업 */
+.popup-login {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+}
+
+.popup-login.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.login-box {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-color);
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px #2894b8;
+}
+
+.popup-header_btn-close > div {
+  top:40%;
+  transform:rotate(-45deg);
+  transition: all 0.2s;
+}
+
+.popup-header_btn-close > div:last-child {
+  transform:rotate(45deg);
+}
+
+.popup-header_btn-close:hover > div {
+  background-color: #000;
+}
+
+.login-box > form > .btn > button {
+  transition: all 0.2s;
+}

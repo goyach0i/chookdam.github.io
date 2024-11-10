@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>축담 | 축구 잡담 커뮤니티</title>
+    <link rel="stylesheet" href="./css/standard.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <header class="w-full flex flex-col md:block">
+      <div class="con mx-auto py-2 h-24 flex items-center">
+        <div class="logo h-full">
+          <a href="./index.html">
+            <img class="block h-full" src="./images/logo.png" alt="" />
+          </a>
+        </div>
+        <div class="flex-grow"></div>
+        <div class="login h-full flex items-center">
+          <button class="login p-3 rounded-2xl font-bold text-white">
+            로그인
+          </button>
+        </div>
+        <div class="popup-login">
+          <div class="popup-bg fixed inset-0 bg-black z-10 bg-opacity-70"></div>
+          <div class="login-box p-5 absolute z-20">
+            <div class="popup-header flex-shrink-0 p-3">
+              <div
+                class="popup-header_btn-close w-8 h-8 ml-auto relative cursor-pointer"
+              >
+                <div class="absolute bg-white inset-x-0 h-1/5"></div>
+                <div class="absolute bg-white inset-x-0 h-1/5"></div>
+              </div>
+            </div>
+            <form
+              action=""
+              class="flex flex-col mt-10 gap-5 items-center w-80 mx-auto"
+            >
+              <div class="id-input w-full">
+                <input
+                  class="w-full h-10 px-3"
+                  type="text"
+                  placeholder="아이디를 입력하세요."
+                />
+              </div>
+              <div class="pw-input w-full">
+                <input
+                  class="w-full h-10 px-3"
+                  type="password"
+                  placeholder="비밀번호를 입력하세요."
+                />
+              </div>
+              <div class="btn ml-auto flex gap-3 mt-3">
+                <button
+                  class="text-white border p-2 hover:border-black hover:bg-black rounded-xl"
+                >
+                  로그인
+                </button>
+                <button
+                  class="text-white border p-2 hover:border-black hover:bg-black rounded-xl"
+                >
+                  회원가입
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="con menu-bar mx-auto h-9 flex">
+        <ul class="flex h-full">
+          <li class="k-league">
+            <a
+              href="#"
+              class="block px-2 h-full flex items-center text-white"
+              >K리그</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block px-2 h-full flex items-center text-white"
+              >프리미어리그</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block px-2 h-full flex items-center text-white"
+              >라리가</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block px-2 h-full flex items-center text-white"
+              >세리에</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block px-2 h-full flex items-center text-white"
+              >리그앙</a
+            >
+          </li>
+          <li>
+            <a href="#" class="block px-2 h-full flex items-center text-white"
+              >분데스리가</a
+            >
+          </li>
+        </ul>
+        <div class="flex-grow"></div>
+        <a href="#" class="block px-2 h-full flex items-center text-white"
+          >자유게시판</a
+        >
+      </div>
+    </header>
+    <section class="section-1 w-full">
+      <div class="con mx-auto py-10 flex flex-col gap-5">
+        <div
+          class="main-ad w-full h-28 flex flex-col items-center justify-center mb-10"
+        >
+          <span class="text-white">링크 광고 (최대 2개)</span>
+          <span class="text-white">1024 X 112</span>
+        </div>
+        <div class="notice w-full">
+          <div class="see-more">
+            <button class="block ml-auto mb-3">더보기</button>
+          </div>
+          <table
+            class="table-fixed w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+          >
+            <thead
+              class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 text-center"
+            >
+              <tr>
+                <th scope="col" class="px-6 py-3">탭</th>
+                <th scope="col" class="px-6 py-3">제목</th>
+                <th scope="col" class="px-6 py-3">작성자</th>
+                <th scope="col" class="px-6 py-3">조회수</th>
+                <th scope="col" class="px-6 py-3">날짜</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="k-league-tb w-full">
+          <div class="see-more">
+            <button class="block ml-auto mb-3">더보기</button>
+          </div>
+          <table
+            class="table-fixed w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+          >
+            <thead
+              class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 text-center"
+            >
+              <tr>
+                <th scope="col" class="px-6 py-3">탭</th>
+                <th scope="col" class="px-6 py-3">제목</th>
+                <th scope="col" class="px-6 py-3">작성자</th>
+                <th scope="col" class="px-6 py-3">조회수</th>
+                <th scope="col" class="px-6 py-3">날짜</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="k-league-tb2 w-full">
+          <div class="see-more">
+            <button class="block ml-auto mb-3">더보기</button>
+          </div>
+          <table
+            class="table-fixed w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400"
+          >
+            <thead
+              class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 text-center"
+            >
+              <tr>
+                <th scope="col" class="px-6 py-3">탭</th>
+                <th scope="col" class="px-6 py-3">제목</th>
+                <th scope="col" class="px-6 py-3">작성자</th>
+                <th scope="col" class="px-6 py-3">조회수</th>
+                <th scope="col" class="px-6 py-3">날짜</th>
+              </tr>
+            </thead>
+            <tbody class="text-center">
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+              <tr
+                class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              >
+                <td class="px-6 py-4"></td>
+                <th
+                  scope="row"
+                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                ></th>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+                <td class="px-6 py-4"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- <footer class="w-full h-20 bg-red-500">
+      <div class="con mx-auto h-full bg-gray-500 flex items-center">footer</div>
+    </footer> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
